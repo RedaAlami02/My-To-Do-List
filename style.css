@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color:bisque;
+    text-align: center;
+}
+
+#tache{
+    height: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+#ajouter, #supprimer{
+    height: 40px;
+
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+}
+
+#hi{
+}
+
+#message {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    position:absolute;
+    padding: 5px;
+    border-radius: 10px;
+    top: 75px;
+    right: 120px;
+    background-color: rgb(2, 9, 49);
+    width: 240px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+li input[type="checkbox"] {
+    margin-right: 15px;
+    height: 6px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+ul li:hover {
+    background-color: #e0e0e0;
+}
